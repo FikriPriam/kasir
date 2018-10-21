@@ -1,0 +1,64 @@
+*{
+    background: rgb(201, 201, 201);
+    font-family: sans-serif;
+}
+
+body{
+    margin: 3vw;
+}
+
+table{
+    border-spacing: 1em;
+}
+
+td#nomor{
+    width: 20;
+}
+
+td#itemm{
+    width: 190;
+}
+
+td#pricee{
+    width: 90;
+}
+
+td#qtyy{
+    width: 160;
+}
+
+.buttone{
+    -moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background-color:red;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:7px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+
+.buttone:hover{
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4d98e3), color-stop(1, #bddbfa));
+	background:-moz-linear-gradient(top, #4d98e3 5%, #bddbfa 100%);
+	background:-webkit-linear-gradient(top, #4d98e3 5%, #bddbfa 100%);
+	background:-o-linear-gradient(top, #4d98e3 5%, #bddbfa 100%);
+	background:-ms-linear-gradient(top, #4d98e3 5%, #bddbfa 100%);
+	background:linear-gradient(to bottom, #4d98e3 5%, #bddbfa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d98e3', endColorstr='#bddbfa',GradientType=0);
+	background-color:#4d98e3;
+}
+
+.buttone:active{
+    position:relative;
+	top:1px;
+}

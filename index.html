@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title id="title">Kasir MM</title>
+</head>
+
+<body>
+    <h1 class="judul" rel="style.css">Burjo Mekar Mulya Pogung</h1>
+
+   <form name="form" action="#"> 
+       <table>
+           <tr>
+               <th>No.</th>
+               <th>Item</th>
+               <th>Price</th>
+               <th>Quantity</th>
+           </tr>
+
+           <tr>
+               <td>1</td>
+               <td>Nastel</td>
+               <td>
+                   <input type="text" name="Nastel" value="7000" readonly="readonly"/>
+               </td>
+               <td>
+                   <input type="text" name="harga1" value="0" onfocus="this.select()" onChange="order()"/>
+               </td>
+           </tr>
+
+           <tr>
+                <td>2</td>
+                <td>Magelangan</td>
+                <td>
+                    <input type="text" name="Magelangan" value="11000" readonly="readonly"/>
+                </td>
+                <td>
+                    <input type="text" name="harga2" value="0" onfocus="this.select()" onChange="order()"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>es teh</td>
+                <td>
+                    <input type="text" name="esteh" value="2000" readonly="readonly"/>
+                </td>
+                <td>
+                    <input type="text" name="harga3" value="0" onfocus="this.select()" onChange="order()"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>es jeruk</td>
+                <td>
+                    <input type="text" name="esjeruk" value="3000" readonly="readonly"/>
+                </td>
+                <td>
+                    <input type="text" name="harga4" value="0" onfocus="this.select()" onChange="order()"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>nasi putih</td>
+                <td>
+                    <input type="text" name="nasi" value="3000" readonly="readonly"/>
+                </td>
+                <td>
+                    <input type="text" name="harga5" value="0" onfocus="this.select()" onChange="order()"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="right">Total Price</td>
+                <td>
+                    <input type="text" name="Total" readonly="readonly"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="right">(Discount)</td>
+                <td>
+                    <input type="text" name="Discount" readonly="readonly"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="right">Total Payment</td>
+                <td>
+                    <input type="text" name="Payment" readonly="readonly"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="right">Money Received</td>
+                <td>
+                    <input type="text" name="PaymentReceived" value="0" onfocus="this.select()" onChange="order()">
+                </td>
+                <br>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="right">Change</td>
+                <td>
+                    <input type="text" name="kembalian" readonly="readonly"/>
+                </td>
+            </tr>
+       </table>
+
+       <input class="buttone" type="button" value="Clear" onclick="resetForm()"/>
+   </form>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
